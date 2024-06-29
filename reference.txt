@@ -1,3 +1,23 @@
 How to group image and text
 https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html
 https://www.shecodes.io/athena/23028-how-to-arrange-images-and-text-in-html#:~:text=To%20arrange%20images%20and%20text%20in%20HTML%2C%20you%20can%20use,specific%20location%20on%20the%20page.
+
+
+what's a grid for web page:
+https://www.uxdesigninstitute.com/blog/how-to-use-grids-in-web-design/
+
+https://elementor.com/blog/grid-design/
+
+
+Center Align Elements
+
+To horizontally center a block element (like <div>), use margin: auto;
+
+The element will then take up the specified width, and the remaining spacewill be split equally between the two margins:
+
+center{
+margin: auto;
+width: 50%;
+border: 3px solid green;
+padding: 10px;
+}

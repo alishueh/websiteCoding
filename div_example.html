@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nested divs</title>
+    <style>
+        #wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            border: solid #669933;
+        }
+        #inner-1 {
+            float: left;
+            width: 49%;
+            border: dotted #CC3300;
+        }
+        #inner-2 {
+            float: left;
+            width: 49%;
+            border: dotted #CC3300;
+        }
+        /* Clear fix to ensure proper wrapping */
+        #wrapper::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        Content inside the "wrapper" div
+        <div id="inner-1">
+            Content<br>inside<br>inner-1 div
+        </div>
+        <div id="inner-2">
+            Content inside inner-2 div
+        </div>
+    </div>
+</body>
+</html>

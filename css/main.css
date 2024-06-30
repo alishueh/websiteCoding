@@ -65,12 +65,12 @@ h1{
 .home{
   color:rgb(3, 54, 95);
   border:5px rgb(86, 179, 195) solid;
-  width:330px;
   border-radius:100px;
   padding: 10px 20px;
   background-color:white;
   text-align:center;
-  font-size:50px;
+  font-size:60px;
+  width:440px;
 }
 
 .hyperlink{
@@ -90,6 +90,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px;
+
 }
 
 .habitatparagraph1 {

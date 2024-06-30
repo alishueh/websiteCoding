@@ -49,6 +49,7 @@
   height:auto;
   padding:5px;
   margin-right:40px;
+  border-radius:10px;
 }
 
 .image_diagram{
@@ -56,6 +57,7 @@
   height:auto;
   padding:5px;
   margin-right:40px;
+  border-radius:10px;
 }
 
 .image_jelly
@@ -64,6 +66,7 @@
   height:auto;
   padding:5px;
   margin-right:20px;
+  border-radius:10px;
 }
 
 .image_fish
@@ -72,6 +75,7 @@
   height:auto;
   padding:5px;
   margin-right:20px;
+  border-radius:10px;
 }
 
 nav{
@@ -105,6 +109,7 @@ h1{
 .jellyfishdiagram{
   width:500px;
   height:auto;
+  border-radius:10px;
 }
 
 .hyperlink{
@@ -142,10 +147,6 @@ body {
   right:0;
 }
 
-.image-nav{
-  width:30px;
-  height:20px;
-}
 
 .specieshyperlink{
   width:10px;
@@ -156,4 +157,5 @@ body {
   align-items:center;
   height:800px;
   width:auto;
+  border-radius:10px;
 }

@@ -11,13 +11,19 @@
 
 .leftside{
   order:1;
-  flex-grown:1;
+  flex-grow:1;
   margin-right:20px;
 }
 
 .rightside{
   order:2;
   margin-left:20px;
+}
+
+.rightside_alignright{
+  order:2;
+  margin-left:20px;
+  float: right;
 }
 
 .slogan{
@@ -37,11 +43,35 @@
   border-radius:10px;
   padding:10px;
 }
-.diagramImg{
+
+.image_ocean_floor {
   width:300px;
   height:auto;
   padding:5px;
   margin-right:40px;
+}
+
+.image_diagram{
+  width:300px;
+  height:auto;
+  padding:5px;
+  margin-right:40px;
+}
+
+.image_jelly
+{
+  width:500px;
+  height:auto;
+  padding:5px;
+  margin-right:20px;
+}
+
+.image_fish
+{
+  width:300px;
+  height:auto;
+  padding:5px;
+  margin-right:20px;
 }
 
 nav{
@@ -72,6 +102,8 @@ h1{
   width:100%;
 }
 
+
+
 .hyperlink{
   font-family:"Ultra";
   font-size:14px;
@@ -89,13 +121,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px;
-
 }
 
-.habitatparagraph1 {
-  width: 500px;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Roboto Condensed";
-  color: rgb(203, 255, 247);
+.nav-button{
+  position:fixed;
+  bottom:0;
+}
+
+.left-button{
+  left:0;
+}
+
+.right-button{
+  right:0;
+}
+
+.image-nav{
+  width:30px;
+  height:20px;
 }

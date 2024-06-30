@@ -102,13 +102,19 @@ h1{
   width:100%;
 }
 
-
+.jellyfishdiagram{
+  width:500px;
+  height:auto;
+}
 
 .hyperlink{
   font-family:"Ultra";
-  font-size:14px;
+  font-size:24px;
   text-align:center;
   color:rgb(203,255,247);
+  background-color:rgb(51, 152, 152);
+  border-radius:15px;
+  padding:10px;
 }
 
 .habitat{
@@ -139,4 +145,15 @@ body {
 .image-nav{
   width:30px;
   height:20px;
+}
+
+.specieshyperlink{
+  width:10px;
+  height:auto;
+}
+
+.typesofjellyfish{
+  align-items:center;
+  height:800px;
+  width:auto;
 }

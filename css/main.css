@@ -66,11 +66,10 @@ h1{
   color:rgb(3, 54, 95);
   border:5px rgb(86, 179, 195) solid;
   border-radius:100px;
-  padding: 10px 20px;
   background-color:white;
   text-align:center;
   font-size:60px;
-  width:440px;
+  width:100%;
 }
 
 .hyperlink{

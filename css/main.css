@@ -9,6 +9,12 @@
   align-items:flex-start;
 }
 
+.introBottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  text-align:center;
+}
 .leftside{
   order:1;
   flex-grow:1;
